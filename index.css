@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  margin-top: 30px;
+}
+
+.form-data {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+table {
+  margin-top: 15px;
+  width: 50vw;
+}
+
+td {
+  border: 1px solid rgb(221, 221, 221);
+  text-align: left;
+  font-size: 18px;
+  height: 5vh;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(221, 221, 221);
+}
+
+.btn-1 {
+  text-align: right;
+  margin-right: 5px;
+}
+
+.remove {
+  text-align: right;
+  margin-left: 100px;
+  width: 70px;
+  padding-right: 30px;
+  padding-left: 10px;
+  cursor: pointer;
+  box-shadow: 4px 7px 4px 0 #000;
+}
+
+.btn {
+  text-align: right;
+  width: 100px;
+  padding-right: 40px;
+  padding-left: 10px;
+  cursor: pointer;
+  box-shadow: 4px 7px 4px 0 #000;
+  height: 5vh;
+}
+
+.text-input {
+  height: 5vh;
+  padding: 5px;
+  margin-top: 5px;
+  width: 30%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.book-list {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.list-title {
+  text-align: center;
+  color: darkred;
+}
+
+.board {
+  border-bottom: 2px solid;
+}
+
+hr {
+  width: 10%;
+  background-color: #000;
+}
+
+.main-list {
+  display: flex;
+  justify-content: center;
+}
+
+.form-data h3 {
+  margin-bottom: 20px;
+}
+
+.horizontal-line {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #000;
+}
+
+.list-link {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+
+.list-link li {
+  list-style-type: none;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  margin-top: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  color: #000;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-container h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.main-container ul {
+  margin-bottom: 20px;
+  line-height: 1.5rem;
+}
+
+.main-container li {
+  font-size: 18px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 300px;
+  text-align: left;
+  font-size: 20px;
+  border: 2px solid #000;
+}
+
+.main-container p {
+  font-size: 18px;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+}
+
+.time {
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 20px;
+}
